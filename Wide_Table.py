@@ -113,7 +113,7 @@ def wide_table(
 
     if center:
         latex_tables = wrap_table(latex_tables, "table")
-        latex_tables = insert_command(latex_tables, "\\centering", 0)
+        latex_tables = insert_command(latex_tables, "\\centering", -1)
 
     if landscape:
         latex_tables = wrap_table(latex_tables, "landscape")
